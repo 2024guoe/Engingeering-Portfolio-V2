@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ellen Guo — Mechanical Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">EG ENG<span>.</span> PORTFOLIO</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="funproj.html">Tinkering</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <p class="section-label">Rev 01 · Engineering Portfolio</p>
+      <h1>Ellen Guo</h1>
+      <p class="role">Mechanical Engineering Student · B.S. Expected June 2028</p>
+      <p class="tagline">Designing and validating mechanical systems through hand calcs, CAD, simulations, and hands-on prototyping. Seeking summer internships and co-ops in product design and R&D.</p>
+      <div class="spec-row">
+        <div class="spec-item"><div class="label">Location</div><div class="value">Stanford, CA</div></div>
+        <div class="spec-item"><div class="label">Focus</div><div class="value">Structural · Thermal · Mechatronics</div></div>
+        <div class="spec-item"><div class="label">Availability</div><div class="value">Full-time · Summer 2027</div></div>
+      </div>
+      <div class="btn-row">
+        <a href="Ellen_Guo_Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <p class="section-label">Fig. 01 — About</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>Hello, I'm Ellen! As a junior mechanical engineer at Stanford University, I am drawn to early-stage product research and development: exploring new concepts through rapid ideation, design, prototyping, and proof-of-concept development.</p>
+          <p>At Stanford, along with classes and clubs, I'm pursuing my interests through fun personal projects. Currently, that includes a hummingbird ID + feeder project and a minimum diameter rocket. See a selection of my past projects below!</p>
+          <p>When I'm not tinkering away, I enjoy a variety of hobbies including bird-watching, hiking, swimming, and painting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+  <div class="container">
+    <p class="section-label">Fig. 02 — Featured Case Studies</p>
+    <h2>Selected Work</h2>
+    <div class="projects">
+      
+      <!-- Project 1: IREC -->
+      <div class="project" data-project="heat-exchanger">
+        <div class="project-thumb">
+          <span class="project-thumb-placeholder">Hover to expand</span>
+          <div class="project-carousel">
+            <div class="carousel-arrow left">‹</div>
+            <div class="carousel-arrow right">›</div>
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="img/IRECLaunch1.JPG" alt="Heat exchanger CAD model">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/airbrakes out naked.jpg" alt="CFD analysis">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/crystallization.jpeg" alt="Prototype testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/rocket vinyl.jpeg" alt="Prototype testing">
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-badge">Rocketry</p>
+          <h3>New Collins Research Rocket</h3>
+          <p class="project-summary">Systems lead for a team rocketry project; defined research areas, technical specs, budget constraints, and led subteams to engineer a 30k ft apogee rocket with experimental airbrakes.</p>
+          
+          <div class="project-details">
+            <div class="detail-section">
+              <h4>Why</h4>
+              <p>A large component of scoring in the International Rocket Engineering Challenge (IREC) involves launching a rocket that flies to a target apogee. My team experimented with airbrakes as a calculated method to hit the exact altitude. We also carried a research payload looking at the effects of zero-gravity crystallization</p>
+            </div>
+            
+            <div class="detail-section">
+              <h4>How</h4>
+              <ul>
+                <li>Organized subteams for each rocket component such as Avionics, Structures, Recovery, and Airbrakes. Managed a 14-person team along with the technical project.</li>
+                <li>Held weekly check-ins and guided each subteam through design, simulation, and build challenges; hosted a design review with professors, graduate students, IREC staff, and SSI alumni to gather thorough feedback </li>
+                <li>Organized 4 test launches throughout the year, scaling up in rocket size and design requirements to test designs and validate simulations</li>
+                <li>Experimented with new simulation softwares that allowed for greater rocket complexity; eventually creating one unique to the team rocket</li>
+              </ul>
+            </div>
+            
+            <div class="detail-section">
+              <h4>Result</h4>
+              <p>We verified working airbrakes during launch, although not as successful or consistent as would be necessary for IREC. 
+                However, during the process, I developed better aerodynamic models around unique rocket shapes, wind shear, and pressure differences at altitude.
+                I also grew as a leader and team manager.</p>
+            </div>
+          </div>
+          
+          <div class="tags">
+            <span class="tag">Fusion</span>
+            <span class="tag">DFM</span>
+            <span class="tag">Jupyter Notebook</span>
+            <span class="tag">ANSYS</span>
+          </div>
+          <div class="project-meta">
+            <span>Role: Systems Lead</span>
+            <span>Status: Completed</span>
+            <span>2025-2026</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: ME103 Flappy Bird -->
+      <div class="project" data-project="rover-suspension">
+        <div class="project-thumb">
+          <span class="project-thumb-placeholder">Hover to expand</span>
+          <div class="project-carousel">
+            <div class="carousel-arrow left">‹</div>
+            <div class="carousel-arrow right">›</div>
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="img/flappy bird final1.png" alt="Suspension assembly">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/flappy bird wing motion.png" alt="FEA analysis">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/flappy bird cad.png" alt="Field testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/flappy sandcasting.png" alt="Field testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/flappy turning.png" alt="Field testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/flappy bird binnies.jpg" alt="Field testing">
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-badge">Mechanics</p>
+          <h3>Flappy Bird Automaton</h3>
+          <p class="project-summary">Flapping bird automoton with pre-determined Kestrel-like wing motion driven by calculated CAMs.</p>
+          
+          <div class="project-details">
+            <div class="detail-section">
+              <h4>Why</h4>
+              <p>Wanted to learn different manufacturing techniques in the Stanford Product Realization Lab (PRL) in order to better understand fabrication processes and DFM.</p>
+            </div>
+            
+            <div class="detail-section">
+              <h4>How</h4>
+              <ul>
+                <li>Extrapolated a Kestrel flapping wing motion and designed CAM shapes to achieve that motion</li>
+                <li>Performed hand calcs and FEA to analyze friction between CAM and follow shaft and find balance between friction reduction and DFM</li>
+                <li>Designed and CADed casting molds/blanks for aluminum sandcasting process</li>
+                <li>Fabricated and finished project using the lathe, mill, wood CNC, forge, waterjet, sandblaster, laser cutter, bandsaw, grinding wheel, and buffing wheel</li>
+              </ul>
+            </div>
+            
+            <div class="detail-section">
+              <h4>Result</h4>
+              <p>Created a working automaton and presented to PRL CAs and professors during quarterly university-wide Meet the Makers makerfaire.</p>
+            </div>
+          </div>
+          
+          <div class="tags">
+            <span class="tag">Aluminum Sandcast</span>
+            <span class="tag">Lathe + Mill</span>
+            <span class="tag">Waterjetting + Welding</span>
+            <span class="tag">Wood CNC</span>
+            <span class="tag">CAD</span>
+            <span class="tag">Rapid Prototyping</span>
+          </div>
+          <div class="project-meta">
+            <span>Role: Personal Project</span>
+            <span>Status: Nicely Finished</span>
+            <span>2026</span>
+          </div>
+        </div>
+      </div>
+
+     <!-- Project 3: Oscar the Grouch -->
+      <div class="project" data-project="transceiver">
+        <div class="project-thumb">
+          <span class="project-thumb-placeholder">Hover to expand</span>
+          <div class="project-carousel">
+            <div class="carousel-arrow left">‹</div>
+            <div class="carousel-arrow right">›</div>
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="img/Oscar out in the world.jpg" alt="Suspension assembly">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/oscar CAD official.png" alt="FEA analysis">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/Oscar Fully painted.jpg" alt="Field testing">
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-badge">Communication</p>
+          <h3>Oscar the Grouch Themed Transceiver</h3>
+          <p class="project-summary">I made my own transceiver which communicates with my rockets' avionics and sends real-time GPS coordinates and altitude readings so I can track my rockets.</p>
+          
+          <div class="project-details">
+            <div class="detail-section">
+              <h4>Why</h4>
+              <p>Wanted to learn more about electronic communication and design my own transceiver instead of using the commercially available ones.</p>
+            </div>
+            
+            <div class="detail-section">
+              <h4>How</h4>
+              <ul>
+                <li>Taught myself how antenna and radio communication works in order to understand how to design my transceiver </li>
+                <li>CADed Oscar the Grouch Themed box with storage for not only electronic components and batteries, but also for trash from snacks eaten while hiking to recover rockets!</li>
+                <li>Soldered board components, antennae, screen, and on/off button and assembled 3D printed transciever parts</li>
+              </ul>
+            </div>
+            
+            <div class="detail-section">
+              <h4>Result</h4>
+              <p>Designed, CADed, and painted finished product. I used it to successfully track and recover my L2 certification rocket flight, and have used it on all launches I've been to since.</p>
+            </div>
+          </div>
+          
+          <div class="tags">
+            <span class="tag">CAD</span>
+            <span class="tag">KiCAD</span>
+            <span class="tag">Prussa 3D Printer</span>
+            <span class="tag">Hand Soldering</span>
+          </div>
+          <div class="project-meta">
+            <span>Role: Personal Project</span>
+            <span>Status: Successfully Used During Launches</span>
+            <span>2025</span>
+          </div>
+        </div>
+      </div>
+
+
+     <!-- Project 3: Rockets -->
+      <div class="project" data-project="personal-rockets">
+        <div class="project-thumb">
+          <span class="project-thumb-placeholder">Hover to expand</span>
+          <div class="project-carousel">
+            <div class="carousel-arrow left">‹</div>
+            <div class="carousel-arrow right">›</div>
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="img/CL firing from burner phone.jpg" alt="Suspension assembly">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/redwinged blackbird fly.jpg" alt="FEA analysis">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/tawny owl naked.jpg" alt="Field testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/pin in redwinged blackbird.jpg" alt="Field testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/rwbb fiberglass over jig.jpg" alt="Field testing">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/L2 cf fin layup.jpg" alt="Field testing">
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-badge">Rocketry</p>
+          <h3>Personal Hobby Rockets (L1 Jr, L1, L2, L2)</h3>
+          <p class="project-summary">These are four personal rockets I built/am working on building during my time at Stanford! Some of these were also National Association of Rocketry (NAR) certification rockets for my L1 and L2.</p>
+          
+          <div class="project-details">
+            <div class="detail-section">
+              <h4>Why</h4>
+              <p>Wanted to gain experience in designing and building stable, fast, and high-flying hobby rockets of various styles including minimum and subminimum diameter.</p>
+            </div>
+            
+            <div class="detail-section">
+              <h4>How</h4>
+              <ul>
+                <li>Learned to simulate and model rocket and rocket components on OpenRocket, a popular rocket modeling software that helps account for aerodynamic forces.</li>
+                <li>CADed my rocket to test fitment of parts, 3D printed molds for composite layups, and performed hand calcs to make sure my rockets would hold up at high accerlations and speeds. </li>
+                <li>Learned how to do aerodynamic wet and dry layups with carbon fiber, fiberglass, and epoxy to strengthen materials</li>
+              </ul>
+            </div>
+            
+            <div class="detail-section">
+              <h4>Result</h4>
+              <p>Built, integrated, and successfully launched and recovered three of the four rockets (fourth one still in progress). Gained rocket design, fabrication, and simulation experience.</p>
+            </div>
+          </div>
+          
+          <div class="tags">
+            <span class="tag">OpenRocket</span>
+            <span class="tag">CAD</span>
+            <span class="tag">Composite Materials</span>
+            <span class="tag">Various Epoxy Types</span>
+          </div>
+          <div class="project-meta">
+            <span>Role: Personal Project</span>
+            <span>Status: Successfully Launched</span>
+            <span>2024-2026</span>
+          </div>
+        </div>
+      </div>
+
+       <!-- Project 5: Fountain Hopper Injector -->
+      <div class="project" data-project="injector">
+        <div class="project-thumb">
+          <span class="project-thumb-placeholder">Hover to expand</span>
+          <div class="project-carousel">
+            <div class="carousel-arrow left">‹</div>
+            <div class="carousel-arrow right">›</div>
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="img/injector nonmanifold.jpg" alt="Suspension assembly">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/injector ansys.png" alt="FEA analysis">
+              </div>
+              <div class="carousel-slide">
+                <img src="img/injector engineering drawing.png" alt="Field testing">
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-badge">Rocketry</p>
+          <h3>Hybrid Rocket Injector</h3>
+          <p class="project-summary">Researched, developed, and modeled an injector which atomizes and mixes high velocity, temperature, and pressure fluids for more efficient combustion</p>
+          
+          <div class="project-details">
+            <div class="detail-section">
+              <h4>Why</h4>
+              <p>Hybrid rockets like the one my team was working on require injectors to better spray fluid from the fluid fuel tank into the solid combustion chamber. The injector is the interface between the two types of fuel in the rocket engine.</p>
+            </div>
+            
+            <div class="detail-section">
+              <h4>How</h4>
+              <ul>
+                <li>Conducted thorough research into hybrid rocket injector methods and high pressure/velocity mixing </li>
+                <li>CADed several different injector types based on literature</li>
+                <li>Coded MATLAB script to model different injector types' diffusivity and velocity profiles of fluid particles</li>
+                <li>Ran FEA on injector with ANSYS to ensure its survival and safety factor in high temperature and pressure environment</li>
+                <li>Narrowed down injector type, toleranced it. Team project unfortunately went unfinished due to unrealistic project scoping, but a downsized version of my injector design was used in the 2025-2026 team rocket</li>
+              </ul>
+            </div>
+            
+            <div class="detail-section">
+              <h4>Result</h4>
+              <p>Although the team project I designed my injector had to be ended, my design was successfully used in a next-generation rocket cold flow. This was also my first big project as a Freshman in college, and I was able to learn so much about R&D and engineering from it.</p>
+            </div>
+          </div>
+          
+          <div class="tags">
+            <span class="tag">CAD</span>
+            <span class="tag">KiCAD</span>
+            <span class="tag">Prussa 3D Printer</span>
+            <span class="tag">Hand Soldering</span>
+          </div>
+          <div class="project-meta">
+            <span>Role: Propulsion Team Engineer</span>
+            <span>Status: Successfully Cold FLowed</span>
+            <span>2024-2025</span>
+          </div>
+        </div>
+      </div>
+
+
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Fig. 03 — Capabilities</p>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Design & CAD</h3>
+          <ul><li>SolidWorks · Fusion</li><li>GD&T · ASME Y14.5</li><li>Design for Manufacturing</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Analysis</h3>
+          <ul><li>ANSYS Mechanical & Fluent</li><li>FEA · CFD basics</li><li>MATLAB · Python</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Fabrication</h3>
+          <ul><li>CNC · Manual machining</li><li>3D printing (FDM/SLA)</li><li>Sheet metal · Welding</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Other</h3>
+          <ul><li>Project management</li><li>Technical writing</li><li>Presenting</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="edu-card" style="margin-top:2rem">
+        <h3>B.S. Mechanical Engineering</h3>
+        <p class="detail">Stanford University · Expected June 2028 · GPA 3.7/4.0</p>
+        <p class="course-list"><strong>Relevant coursework:</strong>Engineering Mechanics–Statics and Dynamics (E14, E15, ME80), Mechanical Systems Design (ME104), Product Realization (ME102/3), Thermodynamics (ME30), Fluids (ME70), Heat Transfer (ME131), Control Systems (ME161)</p>
+      </div>
+
+  <footer id="contact">
+    <div class="container">
+      <p class="section-label">Fig. 04 — Contact</p>
+      <h2>Let's Connect</h2>
+      <p style="color:var(--muted); font-size:0.9rem; margin-top:0.5rem">Open to mechanical engineering co-ops and summer internships.</p>
+      <div class="contact-links">
+        <a href="mailto:alex.chen@email.com">ellenguo@stanford.edu</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+      <p class="copy mono">© 2026 Ellen Guo · Engineering Portfolio</p>
+    </div>
+  </footer>
+<script src="carousel.js"></script>
+</body>
+</html>
